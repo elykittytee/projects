@@ -1,0 +1,42 @@
+@media screen and (max-width: 600px) {
+  .timeline::after {
+    left: 31px;
+  }
+
+  .cont {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+  .cont::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+  .left::after,
+  .right::after {
+    left: 18px;
+  }
+
+  .right {
+    left: 0%;
+  }
+
+  iframe {
+    max-width: 100% !important;
+    width: auto !important;
+    height: auto !important;
+  }
+}
+
+
+body{
+  background-color: Lavender;
+}
+
+#stuff {
+  background-color: White;
+}
