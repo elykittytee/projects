@@ -53,11 +53,8 @@ body#defending{
 }
 
 /* chart sizes */
-.wtype, .stype, .noEffect {
-  text-align: center;
-  margin: 1em auto;
-  padding: .3em 0;
 
+.wtype, .stype, .noEffect {
   border-width: 3px;
   border-style:  solid;
   border-radius: 2px;
