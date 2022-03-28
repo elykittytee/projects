@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
+
 @media screen and (max-width: 600px) {
   .timeline::after {
     left: 31px;
@@ -37,6 +39,23 @@ body{
   background-color: Lavender;
 }
 
+h1#heading {
+  font-family: 'Pompiere', cursive;
+  font-size: 4em;
+}
+
 #stuff {
   background-color: White;
+}
+
+.btn-primary {
+  background-color: indigo;
+}
+
+.btn-primary:hover {
+  background-color: MediumPurple;
+}
+
+.card-footer {
+  background-color:  Snow ;
 }
